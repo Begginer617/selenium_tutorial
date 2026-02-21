@@ -5,7 +5,8 @@ from time import sleep
 # (to otworzy przeglądarkę)
 driver = Chrome()
 # Otwarcie strony
-driver.get("https://www.kozminski.edu.pl/pl")
+driver.get("https://automationpractice.techwithjatin.com/")
+
 # Maksymalizacja okna
 driver.maximize_window()
 sleep(5)
